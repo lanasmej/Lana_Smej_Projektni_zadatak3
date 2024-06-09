@@ -1,0 +1,53 @@
+body {
+  background-image: url("slike/pozadina.jpg");
+  margin:80px;
+}
+
+ @font-face {
+    font-family: Lana_font;
+    src:url(Lana_font.ttf);
+ }
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 58px;
+  font-family: Lana_font;
+  font-weight: normal;
+}
+
+h2 {
+  color: white;
+  font-family: merriweather;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+p  {
+	font-family: montserrat;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+ul {
+  width:500px;
+  margin-left:-40px;
+} 
+
+li {
+	display:inline-block;
+	background-color:#452c63;
+	padding:20px;
+	margin-right:10px;
+}
+
+li:hover {background-color:#800080; cursor:pointer;}
+		
+a {
+	color:white; 
+	font-family: montserrat;
+	text-transform: uppercase;
+}
+
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
